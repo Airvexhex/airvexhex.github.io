@@ -1,0 +1,106 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+body {
+	background-color: rgb(221, 221, 221);
+	color: rgb(0, 0, 0);
+	line-height: 200%; 	/* A little extra leading. */
+	font-family: sans-serif;
+}
+
+div.container{
+	background-color: rgb(250, 250, 250);
+	max-width: 70em;
+	margin: auto;
+}
+
+h1 { /* Done */
+	background-color: rgb(229, 135, 24);
+	color: rgb(250, 250, 250); /* Same as body background. */
+    line-height: 125%;
+	font-size: 2.25rem;
+	padding: 2.5rem 1rem 0.125rem; /* You want three values. */
+	font-family: Sutro, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+h2 { /* Done */
+	background-color: rgb(229, 135, 24);
+	color: rgb(245, 217, 182);
+	font-size: 1.5rem;
+	padding: 0.125rem 1rem 1rem;
+	font-family: Sutro, serif;
+	font-weight: 300;
+    font-style: normal;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+h3 { /* Done */
+	margin: 1.25rem 1.5rem 0rem; /*Three values again. You got the idea.*/
+	padding-top: 0.5rem;
+	font-size: 1.25rem;
+	color: rgb(229, 135, 24);
+	font-family: Sutro, serif;
+    font-weight: 300;
+    font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	border-top: 2px solid;
+}
+
+figure {
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+}
+
+figcaption {
+	line-height: 150%;
+    padding: 1rem 1.5rem 0rem;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+ul {
+	margin: .5rem .5rem 2rem;
+    line-height: 200%;
+    list-style-type: disc;
+}
+
+ol {
+	margin: .75rem .5rem 3.25rem;
+    line-height: 150%;
+    list-style-type: decimal;
+}
+
+li { 
+	margin: 0.5rem 1rem;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    background-color: rgb(229, 135, 24);
+	color: rgb(250, 250, 250); /* Same as body background. */
+    line-height: 125%;
+	font-size: 1rem;
+	padding: 1.125rem 1.125rem 1.125rem; /* You want three values. */
+	font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
