@@ -126,7 +126,7 @@ body {
 
 article.content{
 	background-color: rgb(146 255 255);
-	width: 50%;
+	width-max: 16em;
 	margin: 2em auto;
 }
 
